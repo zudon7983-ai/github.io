@@ -28,6 +28,23 @@ body{
 }
 
 /* Sidebar */
+.avatar-wrap{
+  display:flex;
+  justify-content:center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.avatar{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid rgba(255,255,255,.85);
+  box-shadow: 0 10px 22px rgba(0,0,0,.25);
+  background: rgba(255,255,255,.08);
+}
+
 .sidebar{
   width: 340px;
   background: linear-gradient(180deg, var(--side), var(--side2));
@@ -245,3 +262,4 @@ body{
   .sidebar, .content{ box-shadow:none; border-radius:0; }
   .sidebar{ page-break-after: always; }
 }
+
